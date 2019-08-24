@@ -1,0 +1,32 @@
+.Blackout {
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.newBoard {    
+    margin: auto;
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: rgb(70, 130, 180);
+}
+
+.newBoard input {
+    width: 250px;
+    border: none;
+    border-radius: 1px;
+}
+
+.newBoard button {
+    border: none;
+    background:  rgb( 52, 152, 219 );
+}
