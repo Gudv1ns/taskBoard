@@ -1,0 +1,65 @@
+.Board {
+    display: flex;
+    height: 503px;
+    width: 438px;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #000;
+    flex-direction: column;
+    margin: 75px;
+    margin-left: 100px;
+    box-shadow: 10px 5px 5px rgb(224, 224, 224);
+    background: rgb(255, 255, 255);
+}
+
+.boardName {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    flex-direction: row;
+    word-wrap: break-word;
+}
+
+.btnDel {
+    width: 20px;
+    margin-bottom: 10px;
+    align-self: center;
+    height: 20px;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+.boardName span {
+    max-width: 300px;
+}
+
+.Btn {
+    width: 438px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnEdit {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    align-self: center;
+    align-self: flex-start;
+}
+
+.btnAdd {
+    align-self: center;
+    align-self: flex-start;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.taskList {
+    height: 400px;
+    list-style: none;
+    padding: 0px;
+    margin: 17px;
+}
